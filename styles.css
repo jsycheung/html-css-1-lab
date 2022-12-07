@@ -1,0 +1,118 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#header-1 {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #ffffff;
+}
+
+#header-2 {
+  position: sticky;
+  top: 80px;
+  z-index: 2;
+}
+
+#header-1 {
+  display: flex;
+  height: 80px;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#left-nav,
+#right-nav {
+  padding: 1em 0.2em 1em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-nav > a {
+  font-size: 28px;
+  margin-right: 30px;
+}
+
+#right-nav > a {
+  margin-left: 50px;
+}
+
+#order-button {
+  display: flex;
+  height: 50px;
+  width: 170px;
+  background-color: #e95900;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#order-button:hover {
+  cursor: pointer;
+}
+
+#header-2 {
+  background-color: #e95900;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#menu-container {
+  width: 80vw;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+hr {
+  margin-top: -30px;
+}
+
+#food-container {
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  flex-wrap: wrap;
+  line-height: 5px;
+  margin-bottom: 30px;
+}
+
+.food-item > img {
+  width: 300px;
+  height: 220px;
+}
